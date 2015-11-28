@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.manasshrestha.tictactoe.BoxGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <com.manasshrestha.tictactoe.MainView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="112dp"
+        android:tag="1" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="112dp"
+        android:tag="2" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="222dp"
+        android:layout_marginTop="112dp"
+        android:tag="3" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="216dp"
+        android:tag="4" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="216dp"
+        android:tag="5" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="222dp"
+        android:layout_marginTop="216dp"
+        android:tag="6" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="320dp"
+        android:tag="7" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="320dp"
+        android:tag="8" />
+
+    <com.manasshrestha.tictactoe.BoxView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="222dp"
+        android:layout_marginTop="320dp"
+        android:tag="9" />
+
+    <TextView
+        android:id="@+id/tv_1p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="1p" />
+
+    <TextView
+        android:id="@+id/tv_2p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:text="2p" />
+
+</com.manasshrestha.tictactoe.BoxGroup>
